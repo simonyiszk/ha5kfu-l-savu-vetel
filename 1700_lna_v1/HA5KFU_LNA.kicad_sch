@@ -765,328 +765,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:BAT54S"
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 2.54 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "BAT54S"
-				(at -6.35 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 1.905 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds11005.pdf"
-				(at -3.048 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Vr 30V, If 200mA, Dual schottky barrier diode, in series, SOT-323"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "schottky diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "BAT54S_0_1"
-				(polyline
-					(pts
-						(xy -4.445 1.27) (xy -4.445 -1.27) (xy -2.54 0) (xy -4.445 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 -1.27) (xy -3.175 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 1.27) (xy -1.905 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy -3.175 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 1.27) (xy -1.905 1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 0) (xy 1.905 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 3.81 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 1.27) (xy 1.905 -1.27) (xy 3.81 0) (xy 1.905 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.175 -1.27) (xy 3.175 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 1.27) (xy 4.445 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -1.27) (xy 3.175 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -1.27) (xy 3.81 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.445 1.27) (xy 4.445 1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "BAT54S_1_1"
-				(pin passive line
-					(at -7.62 0 0)
-					(length 3.81)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 5.08)
-					(name "COM"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "RF_Amplifier:QPL9547"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2077,9 +1755,30 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Design választások:\nR1 = 3k32, W1GHZ mérései alapján\nL1 és C[1, 2 , 3, 4]= Szélessávú az erősítő, így nem kell precízen hangolni\naz induktivitás és ellenállás értékét. De ezeket az értékeket választottam, W1GHZ mérései és \na QPL9547 adatlapja alapján"
+	(text "Board setup:\nLayer			Material		Height		Net\nF.Cu 			Cu				0.035mm		GND\nDielectricum	FR-4			1.465mm		---\nB.Cu			Cu				0.035mm		GND\n\nRF távvezeték paraméterei (JLCPCB impedance calc alapján, KICAD calculatorben ellenőrizve)\nW = 0.3472mm (vezeték szélessége)\nS = 0.1mm	 (vezeték föld távolsága)"
 		(exclude_from_sim no)
-		(at 18.034 49.53 0)
+		(at 30.226 141.224 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "020f3a8b-c9c7-4522-a330-c768c334e9cb")
+	)
+	(text "TQP3M9036 esetén R1 és C2 ki kell hagyni, egyébként minden más ugyanaz"
+		(exclude_from_sim no)
+		(at 68.834 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0ef5676f-018d-479c-8a59-9ef30bf38fbe")
+	)
+	(text "Design választások:\nR1 = 3k32, W1GHZ mérése alapján\nL1 és C[1, 2 , 3, 4]=> Szélessávú az erősítő, így nem kell precízen hangolni\naz induktivitás és ellenállás értékét. De ezeket az értékeket választottam, W1GHZ mérései és \na QPL9547 adatlapja alapján"
+		(exclude_from_sim no)
+		(at 33.274 31.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2088,9 +1787,29 @@
 		)
 		(uuid "23f32362-0436-4212-88ea-365e1317bd9d")
 	)
+	(text "Ha van szűrőd, akkor szikézd le az átkötést"
+		(exclude_from_sim no)
+		(at 157.988 72.644 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8e7648ac-bd70-45d0-8c39-f387a6c3878a")
+	)
+	(text "Tápot kettő féle módon lehet feladni:\n1) tüskesoron 5V\n2) az LNA kimenetéről 5V DC"
+		(exclude_from_sim no)
+		(at 230.124 51.562 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "da86805a-59d1-4f55-870a-aaca65763695")
+	)
 	(text "A TFS1690 egy 1690MHz középfrekvenciájú SAW sávszűrő, Digikeyen nem kapható (Digikeyen nem találtam egyáltatlán SAW szűrőt a kívánt sávra vagy csak 500db kiszerelésben kapható)\nEzt külön lehet beszerezni, és nagy előnye, hogyha nem kapható, attól még könnyen áthídalható"
 		(exclude_from_sim no)
-		(at 154.178 107.442 0)
+		(at 169.164 108.712 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2099,7 +1818,7 @@
 		(uuid "e0e3f174-f790-4ed1-a458-d53f07926172")
 	)
 	(junction
-		(at 69.85 87.63)
+		(at 69.85 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0e85c733-8a21-45c4-b345-978d0d991315")
@@ -2171,6 +1890,12 @@
 		(uuid "aca30f25-c3c1-4ecb-a244-e5acfaa49f07")
 	)
 	(junction
+		(at 137.16 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad4f7339-5800-4197-b9da-01bca40920b2")
+	)
+	(junction
 		(at 149.86 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2181,6 +1906,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c8bd98a4-f0aa-4360-8fad-22c59df26d12")
+	)
+	(junction
+		(at 163.83 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f042f18f-d528-4dbb-8767-bc227bef6901")
 	)
 	(junction
 		(at 86.36 81.28)
@@ -2207,6 +1938,16 @@
 			(type default)
 		)
 		(uuid "06fb01c3-7738-49f5-8f42-468a9122097e")
+	)
+	(wire
+		(pts
+			(xy 137.16 73.66) (xy 163.83 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a54f4cf-54b7-4f02-bfb4-0c9fec00269e")
 	)
 	(wire
 		(pts
@@ -2290,6 +2031,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 73.66) (xy 163.83 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6601a2f1-97ab-4dd0-af59-58bdde2073bc")
+	)
+	(wire
+		(pts
 			(xy 199.39 69.85) (xy 208.28 69.85)
 		)
 		(stroke
@@ -2300,7 +2051,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 87.63) (xy 69.85 88.9)
+			(xy 69.85 90.17) (xy 69.85 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2310,7 +2061,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 86.36) (xy 69.85 87.63)
+			(xy 69.85 86.36) (xy 69.85 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2330,6 +2081,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 81.28) (xy 140.97 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "797e5a68-168c-4c95-8937-029619ef992f")
+	)
+	(wire
+		(pts
 			(xy 142.24 52.07) (xy 142.24 54.61)
 		)
 		(stroke
@@ -2340,7 +2101,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 81.28) (xy 175.26 81.28)
+			(xy 161.29 81.28) (xy 163.83 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2397,16 +2158,6 @@
 			(type default)
 		)
 		(uuid "92b1485b-f00d-4390-b8ed-79b02b9c68a7")
-	)
-	(wire
-		(pts
-			(xy 93.98 87.63) (xy 95.25 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96113ac3-7aa2-41aa-b540-9dd62848296c")
 	)
 	(wire
 		(pts
@@ -2520,6 +2271,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 81.28) (xy 137.16 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc77b7a4-6be1-4289-a9ad-16782d4cbf2b")
+	)
+	(wire
+		(pts
 			(xy 208.28 77.47) (xy 208.28 81.28)
 		)
 		(stroke
@@ -2527,6 +2288,16 @@
 			(type default)
 		)
 		(uuid "d6686096-4fd9-4b93-8568-a589adfd12f8")
+	)
+	(wire
+		(pts
+			(xy 163.83 81.28) (xy 175.26 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da563c37-beb8-4db3-9285-5287d76824dc")
 	)
 	(wire
 		(pts
@@ -2540,7 +2311,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 87.63) (xy 78.74 87.63)
+			(xy 69.85 90.17) (xy 86.36 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2580,7 +2351,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 81.28) (xy 140.97 81.28)
+			(xy 137.16 81.28) (xy 133.35 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2778,7 +2549,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CC0402JRNPO9BN101"
+		(property "Description" "603-CC402JRNPO9BN101"
 			(at 99.06 64.77 0)
 			(effects
 				(font
@@ -2830,7 +2601,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount"
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132134_Vertical"
 			(at 69.85 81.28 0)
 			(effects
 				(font
@@ -2848,7 +2619,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+		(property "Description" "523-132134"
 			(at 69.85 81.28 0)
 			(effects
 				(font
@@ -2939,72 +2710,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 95.25 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1994fdcb-7deb-4086-b0d9-6902571b0c7f")
-		(property "Reference" "#PWR012"
-			(at 95.25 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 95.25 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 95.25 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 95.25 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 95.25 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5f0e4dc2-00bd-4ebc-8f6e-3721eeb784a0")
-		)
-		(instances
-			(project ""
-				(path "/ce681d1e-e1ac-4bd1-a7e6-3ec8d898d66a"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:L")
 		(at 125.73 68.58 0)
 		(unit 1)
@@ -3050,7 +2755,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "994-0402CS-33NXJRW"
 			(at 125.73 68.58 0)
 			(effects
 				(font
@@ -3101,7 +2806,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount"
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132291_Vertical"
 			(at 180.34 81.28 0)
 			(effects
 				(font
@@ -3119,7 +2824,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+		(property "Description" "523-132134"
 			(at 180.34 81.28 0)
 			(effects
 				(font
@@ -3385,7 +3090,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "KGM15AS61E105KT"
+		(property "Description" "581-KGM15AS61E105KT"
 			(at 133.35 52.07 0)
 			(effects
 				(font
@@ -3404,6 +3109,76 @@
 			(project "HA5KFU_LNA"
 				(path "/ce681d1e-e1ac-4bd1-a7e6-3ec8d898d66a"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 86.36 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4033a192-b9d5-4538-85da-ec7ed464285b")
+		(property "Reference" "L3"
+			(at 87.63 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33nH"
+			(at 87.63 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
+			(at 86.36 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "994-0402CS-33NXJRW"
+			(at 86.36 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "676a5aa4-306b-45d3-934c-49f5216debdf")
+		)
+		(pin "2"
+			(uuid "6ff459e5-b231-492c-817d-b8986f900ebd")
+		)
+		(instances
+			(project ""
+				(path "/ce681d1e-e1ac-4bd1-a7e6-3ec8d898d66a"
+					(reference "L3")
 					(unit 1)
 				)
 			)
@@ -3585,7 +3360,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CC0402JRNPO9BN101"
+		(property "Description" "603-CC402JRNPO9BN101"
 			(at 133.35 64.77 0)
 			(effects
 				(font
@@ -3653,7 +3428,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "994-0402CS-33NXJRW"
 			(at 195.58 69.85 0)
 			(effects
 				(font
@@ -3679,7 +3454,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 69.85 88.9 0)
+		(at 69.85 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3688,7 +3463,7 @@
 		(fields_autoplaced yes)
 		(uuid "4ee3e880-2bc8-4b79-8d54-dbeaa03994dd")
 		(property "Reference" "#PWR011"
-			(at 69.85 95.25 0)
+			(at 69.85 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3697,7 +3472,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 69.85 93.98 0)
+			(at 69.85 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3705,7 +3480,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 88.9 0)
+			(at 69.85 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3714,7 +3489,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 88.9 0)
+			(at 69.85 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3723,7 +3498,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 69.85 88.9 0)
+			(at 69.85 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3748,7 +3523,7 @@
 		(at 151.13 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "5a7fdf9c-9cc4-4abb-b97e-89bac0fd8374")
@@ -3833,7 +3608,7 @@
 		(at 114.3 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "61a9caf9-da95-4533-a6cf-41c095f07a7f")
@@ -3911,78 +3686,6 @@
 			(project ""
 				(path "/ce681d1e-e1ac-4bd1-a7e6-3ec8d898d66a"
 					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:BAT54S")
-		(at 86.36 87.63 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7a7abdba-7e95-4db5-a446-38e81d803345")
-		(property "Reference" "D1"
-			(at 86.36 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BAT54S"
-			(at 86.36 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 84.455 90.805 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds11005.pdf"
-			(at 89.408 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Vr 30V, If 200mA, Dual schottky barrier diode, in series, SOT-323"
-			(at 86.36 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9381cba2-b5c8-4d91-a382-8c38a8d83eb7")
-		)
-		(pin "3"
-			(uuid "62183a6a-e5a0-4bb0-bf83-05f6afd853f4")
-		)
-		(pin "1"
-			(uuid "d0e41460-2f9a-40c2-b158-09eae6616836")
-		)
-		(instances
-			(project ""
-				(path "/ce681d1e-e1ac-4bd1-a7e6-3ec8d898d66a"
-					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -4100,7 +3803,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "KGM15AS61E105KT"
+		(property "Description" "581-KGM15AS61E105KT"
 			(at 254 73.66 0)
 			(effects
 				(font
@@ -4168,7 +3871,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CC0402JRNPO9BN101"
+		(property "Description" "603-CC402JRNPO9BN101"
 			(at 133.35 81.28 0)
 			(effects
 				(font
@@ -4368,7 +4071,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CC0402JRNPO9BN101"
+		(property "Description" "603-CC402JRNPO9BN101"
 			(at 96.52 81.28 0)
 			(effects
 				(font
@@ -4402,7 +4105,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d594409f-e49e-4deb-96c4-e050b8d963e5")
-		(property "Reference" "R2"
+		(property "Reference" "R1"
 			(at 114.3 67.3099 0)
 			(effects
 				(font
@@ -4438,7 +4141,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "710-560112110102"
 			(at 111.76 68.58 0)
 			(effects
 				(font
@@ -4456,7 +4159,7 @@
 		(instances
 			(project "HA5KFU_LNA"
 				(path "/ce681d1e-e1ac-4bd1-a7e6-3ec8d898d66a"
-					(reference "R2")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -4506,7 +4209,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "250mA low-noise LDO, 2.2V-5.5V input, 3.3V output, SOT-23-5"
+		(property "Description" "863-NCP163ASN330T1G"
 			(at 234.95 72.39 0)
 			(effects
 				(font
@@ -4585,7 +4288,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "KGM15AS61E105KT"
+		(property "Description" "581-KGM15AS61E105KT"
 			(at 208.28 73.66 0)
 			(effects
 				(font
@@ -4681,7 +4384,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e1ad5a1a-5e79-4182-8953-abd6dc361aef")

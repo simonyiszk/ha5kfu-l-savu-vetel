@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "SAW_filt_sym")(type "KiCad")(uri "${KIPRJMOD}/SAW_filt_sym.kicad_sym")(options "")(descr ""))
+)

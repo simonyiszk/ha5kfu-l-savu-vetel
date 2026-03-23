@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.1
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -58,32 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "clearance|132070000|81680000|1b7b0c85-199a-4714-9122-722af8d9cb58|df7b39c4-c8b1-43a3-bafb-668d187bf73a",
-          ""
-        ],
-        [
-          "clearance|132070000|82480000|08ebb003-661f-4ec8-bfa1-037b5df77f2e|df7b39c4-c8b1-43a3-bafb-668d187bf73a",
-          ""
-        ],
-        [
-          "shorting_items|132070000|81680000|b44e0f5e-9a88-4973-8f62-b87571e8de59|df7b39c4-c8b1-43a3-bafb-668d187bf73a",
-          ""
-        ],
-        [
-          "solder_mask_bridge|132070000|81680000|df7b39c4-c8b1-43a3-bafb-668d187bf73a|1b7b0c85-199a-4714-9122-722af8d9cb58",
-          ""
-        ],
-        [
-          "solder_mask_bridge|132070000|82480000|df7b39c4-c8b1-43a3-bafb-668d187bf73a|08ebb003-661f-4ec8-bfa1-037b5df77f2e",
-          ""
-        ],
-        [
-          "starved_thermal|136235000|73890000|1465ab28-daaf-4e36-9ecf-57a977bd064d|e1df9ab3-c284-4306-81c6-e3aa3e0c01dd|F.Cu",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -148,7 +123,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.1,
+        "min_clearance": 0.2,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
@@ -512,18 +487,12 @@
         "wire_width": 6
       },
       {
-        "clearance": 0.508,
-        "diff_pair_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "ContImpedance",
+        "clearance": 0.2,
+        "name": "50Ohm",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 2.71,
-        "via_diameter": 0.6,
-        "via_drill": 0.3
+        "track_width": 0.2939
       }
     ],
     "meta": {

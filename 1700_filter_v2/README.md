@@ -1,5 +1,7 @@
 # 1691 MHz-s interdigital szűrő NYÁK lapból
 
+> Fontos: a szűrő nem vált be jól, nagy lett a beiktatási csillapítása. Valószínűleg a problémát a hangolócsavarok okozták, amelyek a 2 oldalú NYÁK rossz oldalára lettek így forrasztva, de nem biztos. Jobban bevált végül egy szűrő innen: https://lea.hamradio.si/~s53mv/cavity/cavity.html
+
 A szűrő a www.changpuak.ch/electronics/interdigital_bandpass_filter_designer.php segítségével lett megtervezve. Ezen repóban a szűrő dobozát alkotó NYÁK darabok CNC-vel való gyártásához készült fájlok szerepelnek. 
 A gyártás során volt, amit át kellett tervezni, változáslista:
 - a körvonalba NEM kell beleszámolni a marófej vastagságát, ezt a program tudja kezelni
